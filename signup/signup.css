@@ -1,0 +1,96 @@
+* {
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: white;   
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+  font-family: bd-micronfont, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.radial-gradient {
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    z-index: -1000;
+}
+
+main {
+  overflow-x: hidden;
+  display: flex;
+}
+
+section {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4ch;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#user, #pass {
+  background: transparent;
+  outline: none;
+  color: white;
+  border: none;
+  border-bottom: solid 1px white;
+  font-size: 4vw;
+  text-align: left;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+::placeholder {
+  color:white;
+  text-align: left;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#register, #reset {
+  font-size: 4vw;
+  padding: 2%;
+  border: 1px solid white;
+  border-radius: 100px;
+  background: transparent;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#register:hover, #reset:hover {
+  background-color: #7892ab;
+  transition: background-color 1000ms linear;
+}
+
+

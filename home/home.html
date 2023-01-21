@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zko5kvo.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zko5kvo.css">        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <title>Mecha Mecca</title>
+</head>
+<body>
+    <div class="radial-gradient"></div>
+
+    <div class="vertical-section">
+        <div class="wrapper">
+            <div class="content">
+                <div class="columns1">
+                    <div class="middle">
+                        <img src="media/daisyyy.gif">
+                        <div id="bonsai" style="display: none;">
+                          Bonsai Tree <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing. 
+                          <br><input type=number id="price" name="object1" value=870 readonly><br>
+                          Qty: <input type=number id="quantity1" name="quantity"><br>
+                          <div id="subtotal1"></div><br>
+                        </div>
+                      </div>
+
+                    <aside class="left">
+                      <img src="media/dandelion.gif">
+                        <div id="tulip" style="display: none;">
+                          Tulip <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing. 
+                          <br><input type=number id="price" name="object1" value=890 readonly><br>
+                          Qty: <input type=number id="quantity2" name="quantity"><br>
+                          <div id="subtotal2"></div>
+                        </div>
+                    </aside>
+
+                    <aside class="right">
+                      <img src="media/daisy.gif">
+                        <div id="anenome" style="display: none;">
+                          Sea Anenome <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing. 
+                          <br><input type=number id="price" name="object1" value=870 readonly><br>
+                          Qty: <input type=number id="quantity3" name="quantity"><br>
+                          <div id="subtotal3"></div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+
+            <header class="header">
+                <div id="mechamecca">MECHA<br>MECCA</div>
+      
+                <div id="navigation">
+                  <div id="shop">shop</div>
+      
+                  <div id="cont">
+                    <a href="../contact/contact.html">contact</a>
+                  </div>
+      
+                  <div id="search">
+                    <form action="search.php" method="get">
+                      <input type="search" name="productName" placeholder="search">
+                    </form>
+                  </div>
+      
+                </div>
+              </header>
+
+              <div class="content">
+                  <div class="columns2">
+                    <div class="middle">
+                      <img src="media/daisy.gif">
+                        <div id="birds" style="display: none;">
+                          Birds of Paradise <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing. 
+                          <br><input type=number id="price" name="object1" value=870 readonly><br>
+                          Qty: <input type=number id="quantity4" name="quantity"><br>
+                          <div id="subtotal4"></div>
+                        </div>
+                      </div>
+
+                    <aside class="left">
+                        <img src="media/daisy.gif">
+                        <div id="plant" style="display: none;">
+                          Plant <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing. 
+                          <br><input type=number id="price" name="object1" value=870 readonly><br>
+                          Qty: <input type=number id="quantity5" name="quantity"><br>
+                          <div id="subtotal5"></div>
+                        </div>
+                    </aside>
+
+                    <aside class="right">
+                      <img src="media/daisy.gif">
+                        <div id="lotus" style="display: none;">
+                          Lotus <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing. 
+                          <br><input type=number id="price" name="object1" value=870 readonly><br>
+                          Qty: <input type=number id="quantity6" name="quantity"><br>
+                          <div id="subtotal6"></div>
+                        </div>
+                    </aside>
+                  </div>
+              </div>
+
+              <input type="submit" value=CHECKOUT⇢ id="checkout" style="display: none;">
+
+        </div>
+    </div>
+
+    <div id="subtotal"></div>
+    <div id="grandtotal"></div>
+
+
+    <div class="sticky-container">
+            <main>
+                <section id="personalinfo">
+                    <div id="receipt">
+                        <h2>PERSONAL INFO</h2>
+                        <form action="shop.php" method=post id="shopForm">
+                            First Name <input type="text" id="firstname" name="First Name"><br>
+                            Last Name </label><input type="text" id="lastname" name="Last Name"><br>
+                            Email <input type=email name="Email"><br>
+                            Phone Number <input type=number id="phoneNumber" name="Phone Number"><br>
+                            Street Address <input type="text" id="streetAddress" name="Street Address"><br>
+                            Zipcode </label><input type=number id="zipcode" name="Zipcode"><br><br>
+    
+                            Credit Card  <input name="Credit Card" type="radio" value="Amex" checked>AMEX
+                                         <input name="Credit Card" type="radio" value="Visa"> Visa
+                    </div>
+                </section>
+
+                <section>
+                        <input type=submit value="Checkout" id="check">
+                        <input type="reset" value="Reset" id="reset">
+                        </form>
+                </section>
+
+                <section id="result">
+                    <div id="receiptResult"></div>
+                </section>
+            </main>
+    </div>
+
+        <div id="footer" style="display: none;">
+            <a href="home.html">home</a>
+
+            <a href="about.html">about</a>
+    
+            <div id="search2">
+              <form action="search.php" method="get">
+                <input type="search" name="productName" placeholder="search">
+              </form>
+            </div>
+    
+            <a href="../contact/contact.html">contact</a>
+          </div>
+        </div>
+
+      <script src="home.js"></script>
+</body>
+</html>
