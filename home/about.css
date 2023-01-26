@@ -1,0 +1,70 @@
+* {
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 300;
+    font-style: normal;  
+    color: white;
+  }
+  
+  body {
+      background-color: white;   
+      overflow: hidden;
+      padding: 0px;
+      margin: 0px;
+  }
+  
+  #home {
+    font-size: 1.5vw;
+    padding: 2%;
+    position: absolute;
+  }
+
+a {
+    text-decoration: none;
+}
+  
+  #home:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    font-family: bd-micronfont, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  }
+  
+  .radial-gradient {
+      position:fixed;
+      top:0px;
+      left:0px;
+      height:100%;
+      width:100%;
+      z-index: -1000;
+  }
+  
+  main {
+    overflow-x: hidden;
+    display: flex;
+  }
+  
+  section {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4ch;
+    text-align: center;
+  }
+  
+  img {
+    width: 40%;
+}
+
+h3 {
+    font-size: 1.5vw;
+}
+  
+  
+  
+  

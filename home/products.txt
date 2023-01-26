@@ -1,0 +1,6 @@
+Bonzai:850:Tree:Level 2+
+Phlora:900:Flower:Level 8+
+Dandi:700:Plant:Level 3+
+Blossom:400:Flower:Level 2+
+Lotus:950:Flower:Level 9+
+Heart Plant:1000:Plant:Level 10+
