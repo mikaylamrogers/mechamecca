@@ -1,2 +1,0 @@
-iphone:$300:100 items:Iphone 14 Pro
-ipad:$400:10 items:Ipad pro
